@@ -163,7 +163,7 @@ gulp.task('js', function () {
       // список обрабатываемых файлов
       dirs.source + '/js/jquery-3.1.0.min.js',
       dirs.source + '/js/jquery-migrate-1.4.1.min.js',
-      dirs.source + '/js/owl.carousel.min.js',
+      // dirs.source + '/js/owl.carousel.min.js',
       dirs.source + '/js/script.js',
     ])
     .pipe(plumber({ errorHandler: onError }))

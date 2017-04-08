@@ -1,0 +1,41 @@
+// Для импорта в диспетчер подключений: @import './src/less/blocks/card.less';
+
+
+.card {
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+
+  &--greenvalley {
+    background-image: url('../img/greenvalley.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px 0;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: rgba(250, 250, 250, .8);
+    text-decoration: none;
+  }
+
+  &__title {
+    margin: 0;
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+    font-size: 30px;
+  }
+
+  &__text {
+    color: #000;
+    font-weight: 300;
+    font-size: 16px;
+  }
+}

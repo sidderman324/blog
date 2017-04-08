@@ -7,9 +7,48 @@
   &__list {
     display: inline-block;
     margin: 0 auto;
+    padding: 0;
+    text-align: center;
   }
 
   &__item {
     list-style-type: none;
+    margin-bottom: 20px;
+  }
+
+  &__link {
+    color: #000;
+    position: relative;
+    padding-left: 38px;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+
+    &--github:before {
+      content: '';
+      display: inline-block;
+      .sprite(@github);
+      position: absolute;
+      top: -1px;
+      left: 0;
+    }
+
+    &--mail:before {
+      content: '';
+      display: inline-block;
+      .sprite(@mail);
+      position: absolute;
+      top: -1px;
+      left: 0;
+    }
+
+    &--phone:before {
+      content: '';
+      display: inline-block;
+      .sprite(@phone);
+      position: absolute;
+      top: -1px;
+      left: 0;
+    }
   }
 }

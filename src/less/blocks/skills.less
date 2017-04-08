@@ -3,19 +3,39 @@
 
 .skills {
   display: inline-block;
+  padding: 30px 0;
 
   &__list {
     display: inline-block;
+    padding: 0;
+    text-align: center;
   }
 
   &__item {
     display: inline-block;
-    width: 30%;
     list-style-type: none;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    padding-left: 20px;
+    position: relative;
+    width: 10%;
+    text-decoration: underline;
+
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: #000;
+      position: absolute;
+      left: 0;
+      top: 25%;
+    }
   }
 
   &__text {
-    // margin-right: 20px;
+    font-weight: 300;
+    font-size: 16px;
   }
-
 }

@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <title>Sergey Sidorov</title>
 </head>
+
 <body>
+  <div class="mask">
 
   <header class="page-header">
 
     <div class="container">
-      <div class="row">
 
-        <h2 class="section-title page-header__title  col-md-6  hidden-xs hidden-sm">Обо мне</h2>
+      <h2 class="section-title page-header__title">Обо мне</h2>
 
-        <span class="toggler page-header__toggler  col-xs-offset-10 col-xs-2 col-sm-offset-10 col-sm-2  hidden-md hidden-lg">123</span>
+      <span class="toggler page-header__toggler">123</span>
 
-        <h2 class="section-title page-header__title  col-md-6  hidden-xs hidden-sm">Портфолио</h2>
+      <h2 class="section-title page-header__title">Портфолио</h2>
 
-      </div>
     </div>
 
   </header>
 
-  <section class="about  col-xs-12 col-sm-12 col-md-6 col-lg-6">
+  <main>
+    <div class="container  main__container">
 
-    <div class="container">
-      <div class="row  col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <div class="about">
 
         <h1 class="name">Сергей Сидоров</h1>
 
-
-
         <div class="contact">
-
-          <div class="row  col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <ul class="contact__list">
               <li class="contact__item">
                 <a href="https://github.com/sidderman324" class="contact__link">https://github.com/sidderman324</a>
@@ -48,33 +46,30 @@
                 <a href="tel:+79676630552" class="contact__link">+7(967)663-0-553</a>
               </li>
             </ul>
-          </div>
         </div>
 
-        <div class="row skills  col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="skills">
           <ul class="skills__list">
-            <li class="skills__item"><span class="skills__text">Git</span></li>
-            <li class="skills__item"><span class="skills__text">Less</span></li>
-            <li class="skills__item"><span class="skills__text">Gulp</span></li>
-            <li class="skills__item"><span class="skills__text">BEM</span></li>
-            <li class="skills__item"><span class="skills__text">HTML</span></li>
-            <li class="skills__item"><span class="skills__text">CSS</span></li>
-            <li class="skills__item"><span class="skills__text">jQuery</span></li>
-            <li class="skills__item"><span class="skills__text">Bootstrap</span></li>
-            <li class="skills__item"><span class="skills__text">WordPress</span></li>
+            <li class="skills__item"><span class="skills__text  skills__text--git">Git</span></li>
+            <li class="skills__item"><span class="skills__text  skills__text--less">Less</span></li>
+            <li class="skills__item"><span class="skills__text  skills__text--gulp">Gulp</span></li>
+            <li class="skills__item"><span class="skills__text  skills__text--bem">BEM</span></li>
+            <li class="skills__item"><span class="skills__text  skills__text--html">HTML</span></li>
+            <li class="skills__item"><span class="skills__text  skills__text--css">CSS</span></li>
+            <li class="skills__item"><span class="skills__text  skills__text--jquery">jQuery</span></li>
+            <li class="skills__item"><span class="skills__text  skills__text--bootstrap">Bootstrap</span></li>
+            <li class="skills__item"><span class="skills__text  skills__text--wordpress">WordPress</span></li>
           </ul>
         </div>
 
-        <a href="#" class="btn  btn-info">Блог</a>
+        <div class="btn__wrapper">
+          <a href="#" class="btn">Предложить работу</a>
+          <a href="#" class="btn">Блог</a>
+        </div>
 
-        <a href="#" class="btn  btn-success">Предложить работу</a>
+      </div>
 
-    </div>
-
-
-  </section>
-
-  <section class="portfolio  hidden-xs hidden-sm col-md-6 col-lg-6">
+      <div class="portfolio">
 
         <ol class="portfolio__list">
           <li class="portfolio__item">
@@ -91,21 +86,17 @@
           </li>
         </ol>
 
-    </div>
-
-  </section>
-
-  <footer class="page-footer  col-sm-12 col-sm-12 col-md-12 col-lg-12">
-    <div class="container">
-      <div class="row  col-sm-12 col-sm-12 col-md-12 col-lg-12">
-
-        <span class="page-footer__text">Дизайн и верстка Сергей Сидоров</span>
-
       </div>
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    <div class="container">
+        <span class="page-footer__text">Дизайн и верстка Сергей Сидоров, 2017</span>
     </div>
   </footer>
 
-
-
+  </div>
 </body>
+
 </html>
